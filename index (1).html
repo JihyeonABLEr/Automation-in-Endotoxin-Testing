@@ -13,7 +13,7 @@
   <!-- 왼쪽 폼 -->
   <div style="flex: 1; max-width: 48%; background-color: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);">
 
-    <h2 style="text-align: center; font-size: 24px; font-weight: 700; margin-bottom: 20px;">Automation for Life Sciences</h2>
+    <h2 style="text-align: center; font-size: 24px; font-weight: 700; margin-bottom: 20px;">Automation in Endotoxin Testing</h2>
 
     <!-- 입력 폼 -->
     <form id="downloadForm" action="https://formspree.io/f/xeoqbeab" method="POST" onsubmit="showPDF();" style="display: flex; flex-direction: column;">
@@ -143,7 +143,7 @@
 		
 <!-- PDF 다운로드 버튼 -->
 <div id="pdfDownload" style="display: none; text-align: center; margin-top: 20px;">
-  <a href="https://drive.google.com/uc?export=download&id=1VXMbwmnnmKNYRr4KaVtKtoPRsaFys0BE" 
+  <a href="https://drive.google.com/uc?export=download&id=1kZ3vlpUT5gLBRzkopGrwiqO3siCnP5Mw" 
      download style="display: inline-block; padding: 10px 20px; background-color: #007BFF; color: white; text-decoration: none; border-radius: 4px; font-weight: 600;">
     Download
   </a>
@@ -151,8 +151,8 @@
 	
 <!-- PDF 파일 보기 섹션 -->
 <div id="pdfSection" style="display: none; max-width: 900px; margin: 30px auto; text-align: center;">
-  <h3 style="margin-bottom: 10px;">Automation for Life Sciences</h3>
-  <iframe src="https://drive.google.com/file/d/1VXMbwmnnmKNYRr4KaVtKtoPRsaFys0BE/preview" style="width: 100%; height: 900px; border: none; border-radius: 8px;"></iframe>
+  <h3 style="margin-bottom: 10px;">Automation in Endotoxin Testing</h3>
+  <iframe src="https://drive.google.com/file/d/1kZ3vlpUT5gLBRzkopGrwiqO3siCnP5Mw/preview" style="width: 100%; height: 900px; border: none; border-radius: 8px;"></iframe>
 </div>
 
 <!-- JavaScript -->
@@ -163,7 +163,7 @@ document.getElementById("downloadForm").addEventListener("submit", function(even
   // Formspree로 AJAX 요청 보내기
   const formData = new FormData(this);
 
-  fetch("https://formspree.io/f/xeoqbeab", {
+  fetch("https://formspree.io/f/mpwwnneb", {
     method: "POST",
     body: formData,
     headers: {
